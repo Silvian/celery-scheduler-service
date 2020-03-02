@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  web:
+    build: .
+    volumes:
+    - .:/home/ubuntu/celery-scheduler
+    ports:
+      - "3020:80"

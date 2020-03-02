@@ -127,3 +127,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Redis
+redis*/
+
+# Python pyc files
+**/*.pyc
+
+# Mac system files
+.DS_Store
+*.DS_Store
+*.DS*
+
+# IDE specific files
+*.idea
+.idea
+.idea/*
